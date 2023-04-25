@@ -1,0 +1,14 @@
+{
+  "/_app": "pages/_app.js",
+  "/api/health": "pages/api/health.js",
+  "/api/mock/login": "pages/api/mock/login.js",
+  "/api/mock/logout": "pages/api/mock/logout.js",
+  "/": "pages/index.html",
+  "/login": "pages/login.html",
+  "/register": "pages/register.html",
+  "/_error": "pages/_error.js",
+  "/pokemons/client": "pages/pokemons/client.js",
+  "/pokemons": "pages/pokemons.js",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}
