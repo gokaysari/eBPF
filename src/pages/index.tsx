@@ -330,13 +330,7 @@ const Home: NextPage = () => (
                 pointHoverBackgroundColor: '#fff',
                 borderWidth: 2,
                 data: [
-                  random(50, 200),
-                  random(50, 200),
-                  random(50, 200),
-                  random(50, 200),
-                  random(50, 200),
-                  random(50, 200),
-                  random(50, 200),
+                  
                 ],
                 fill: true,
               }, {
@@ -345,13 +339,7 @@ const Home: NextPage = () => (
                 pointHoverBackgroundColor: '#fff',
                 borderWidth: 2,
                 data: [
-                  random(50, 200),
-                  random(50, 200),
-                  random(50, 200),
-                  random(50, 200),
-                  random(50, 200),
-                  random(50, 200),
-                  random(50, 200),
+                  
                 ],
               }, {
                 label: 'My Third dataset',
@@ -410,7 +398,7 @@ const Home: NextPage = () => (
         >
           <Card.Header className="d-flex justify-content-center align-items-center">
             <FontAwesomeIcon
-              icon={faFacebookF}
+              icon={faLinkedinIn}
               fixedWidth
               size="3x"
               className="my-4 text-white"
@@ -439,7 +427,7 @@ const Home: NextPage = () => (
         >
           <Card.Header className="d-flex justify-content-center align-items-center">
             <FontAwesomeIcon
-              icon={faTwitter}
+              icon={faLinkedinIn}
               fixedWidth
               size="3x"
               className="my-4 text-white"
@@ -496,7 +484,7 @@ const Home: NextPage = () => (
       <div className="col-md-12">
         <Card>
           <Card.Header>
-            Traffic &amp; Sales
+            File Open 
           </Card.Header>
           <Card.Body>
             <div className="row">
@@ -684,7 +672,7 @@ const Home: NextPage = () => (
                       </div>
                     </td>
                     <td>
-                      <div>Agapetus Tadeáš</div>
+                      <div>Celal Özaba</div>
                       <div className="small text-black-50">
                         {' '}
                       </div>
@@ -730,64 +718,6 @@ const Home: NextPage = () => (
                     </td>
                   </tr>
                   <tr className="align-middle">
-                    <td className="text-center">
-                      <div className="avatar avatar-md d-inline-flex position-relative">
-                        <Image
-                          fill
-                          className="rounded-circle"
-                          src="avatars.dicebear.com/api/croodles/stefan.svg"
-                          alt="user@email.com"
-                        />
-                        <span
-                          className="avatar-status position-absolute d-block bottom-0 end-0 bg-danger rounded-circle border border-white"
-                        />
-                      </div>
-                    </td>
-                    <td>
-                      <div>Friderik Dávid</div>
-                      <div className="small text-black-50">
-                        {' '}
-                      </div>
-                    </td>
-                    <td>
-                      <div className="clearfix">
-                        <div className="float-start">
-                          <div className="fw-semibold"></div>
-                        </div>
-                        <div className="float-end">
-                          <small className="text-black-50">
-                          </small>
-                        </div>
-                      </div>
-                      <ProgressBar className="progress-thin" variant="success" now={43} />
-                    </td>
-                    <td>
-                      <div className="small text-black-50"></div>
-                      <div className="fw-semibold"></div>
-                    </td>
-                    <td>
-                      <Dropdown align="end">
-                        <Dropdown.Toggle
-                          as="button"
-                          bsPrefix="btn"
-                          className="btn-link rounded-0 text-black-50 shadow-none p-0"
-                          id="action-user6"
-                        >
-                          <FontAwesomeIcon fixedWidth icon={faEllipsisVertical} />
-                        </Dropdown.Toggle>
-
-                        <Dropdown.Menu>
-                          <Dropdown.Item href="#/action-1">Info</Dropdown.Item>
-                          <Dropdown.Item href="#/action-2">Edit</Dropdown.Item>
-                          <Dropdown.Item
-                            className="text-danger"
-                            href="#/action-3"
-                          >
-                            Delete
-                          </Dropdown.Item>
-                        </Dropdown.Menu>
-                      </Dropdown>
-                    </td>
                   </tr>
                 </tbody>
               </table>
