@@ -38,7 +38,7 @@ export default function Sidebar(props: { isShow: boolean; isShowMd: boolean }) {
           height="46"
         >
           <title>CoreUI Logo</title>
-          <use xlinkHref="/assets/brand/coreui.svg#full" />
+          <use xlinkHref="ebpfLogo.png" />
         </svg>
         <svg
           className="sidebar-brand-narrow d-none"
@@ -46,7 +46,7 @@ export default function Sidebar(props: { isShow: boolean; isShowMd: boolean }) {
           height="46"
         >
           <title>CoreUI Logo</title>
-          <use xlinkHref="/assets/brand/coreui.svg#signet" />
+          <use xlinkHref="ebpfLogo.png" />
         </svg>
       </div>
 
