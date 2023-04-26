@@ -7,7 +7,7 @@ export default function Breadcrumb() {
         linkProps={{ className: 'text-decoration-none' }}
         href="/"
       >
-        Home
+        
       </BSBreadcrumb.Item>
     </BSBreadcrumb>
   )
